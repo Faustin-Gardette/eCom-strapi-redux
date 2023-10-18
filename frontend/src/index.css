@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-back {
+  background: #e3ded3;
+}
+
+.color-grey {
+  color: #404040;
+}
+
+.color-red {
+  color: #a00000;
+}
+
+.text-stroke-3 {
+  text-shadow: -2px -2px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+li {
+  cursor: pointer;
+}
+
+span {
+  cursor: pointer;
+}
+
+.size {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #404040;
+  border-radius: 10%;
+}
+
+.active {
+  color: #a00000;
+}
